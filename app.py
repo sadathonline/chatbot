@@ -14,7 +14,7 @@ def chatbot(prompt):
 
 # Streamlit app starts here
 def main():
-    st.title("Sadath's Personal Bot")
+    st.title("Sadath's Bot")
     st.write("Ask me your queries:")
 
     # Input text box for user
