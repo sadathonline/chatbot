@@ -14,14 +14,14 @@ def chatbot(prompt):
 
 # Streamlit app starts here
 def main():
-    st.title("GPT Chatbot")
-    st.write("Enter your question below:")
+    st.title("Sadath's Personal Bot")
+    st.write("Ask me your queries:")
 
     # Input text box for user
     user_input = st.text_input("You:", "")
 
     # Button to send input to chatbot
-    if st.button("Submit"):
+    if st.button("Go !!"):
         if user_input:
             # Call the chatbot function
             response = chatbot(user_input)
